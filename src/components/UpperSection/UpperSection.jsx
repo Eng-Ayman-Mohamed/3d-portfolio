@@ -25,7 +25,7 @@ const Logo = styled.h1`
 
 const Slogan = styled.h4`
   margin: 0;
-
+  text-align: center;
   font-weight: 700;
   font-size: 30px;
   margin-top: 10px;
