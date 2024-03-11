@@ -30,8 +30,8 @@ const Earth = (props) => {
 
   return (
     <>
-      {/*  <ambientLight /> */}
-      <pointLight color="#f6f3ea" position={[6, 0, 6]} intensity={70} />
+      <ambientLight intensity={2} />
+      {/* <pointLight color="#f6f3ea" position={[6, 0, 6]} intensity={70} /> */}
       <Stars
         radius={300}
         depth={60}
@@ -59,7 +59,7 @@ const Earth = (props) => {
           metalness={0.4}
           roughness={0.7}
         />
-        {<OrbitControls enableZoom={false} />}
+        <OrbitControls enableZoom={false} />
       </mesh>
     </>
   );
